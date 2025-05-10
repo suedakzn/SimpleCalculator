@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Sonuç Gösterme Alanı -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:textAlignment="textEnd"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#F3F4F6"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Butonlar -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:padding="8dp">
+
+        <!-- Sıfırlama (AC) -->
+        <Button android:text="AC" style="@style/ActionButtonStyle" android:id="@+id/buttonAC" />
+
+        <!-- Boş Yer (Düzenleme için) -->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1" />
+
+        <!-- Eşittir (Sonucu Göster) -->
+        <Button android:text="=" style="@style/OperationButtonStyle" android:id="@+id/buttonEquals" />
+
+        <!-- Sayısal Butonlar -->
+        <Button android:text="7" style="@style/NumberButtonStyle" android:id="@+id/button7" />
+        <Button android:text="8" style="@style/NumberButtonStyle" android:id="@+id/button8" />
+        <Button android:text="9" style="@style/NumberButtonStyle" android:id="@+id/button9" />
+
+        <Button android:text="4" style="@style/NumberButtonStyle" android:id="@+id/button4" />
+        <Button android:text="5" style="@style/NumberButtonStyle" android:id="@+id/button5" />
+        <Button android:text="6" style="@style/NumberButtonStyle" android:id="@+id/button6" />
+
+        <Button android:text="1" style="@style/NumberButtonStyle" android:id="@+id/button1" />
+        <Button android:text="2" style="@style/NumberButtonStyle" android:id="@+id/button2" />
+        <Button android:text="3" style="@style/NumberButtonStyle" android:id="@+id/button3" />
+
+        <!-- 0 ve Toplama -->
+        <Button android:text="0" style="@style/NumberButtonStyle" android:layout_columnSpan="2" android:id="@+id/button0" />
+        <Button android:text="+" style="@style/OperationButtonStyle" android:id="@+id/buttonPlus" />
+
+    </GridLayout>
+</LinearLayout>
