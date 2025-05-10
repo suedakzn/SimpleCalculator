@@ -35,7 +35,7 @@ Bu proje, sadece toplama işlemi yapan basit bir hesap makinesi uygulamasıdır.
 
 1. Uygulama açıldığında ekranda 0 gözükecektir.
 2. Rakam tuşlarına basarak sayı girişi yapın.
-3. + tuşu ile toplama işlemini gerçekleştirin.
+3. '+' tuşu ile toplama işlemini gerçekleştirin.
 4. = tuşuna basarak sonucu görün.
 5. AC tuşu ile ekranı sıfırlayın.
 
