@@ -23,7 +23,9 @@ Bu proje, sadece toplama işlemi yapan basit bir hesap makinesi uygulamasıdır.
    git clone https://github.com/suedakzn/SimpleCalculator.git
    ```
 3.Proje dosyasına gidin:
+  ```bash
    cd SimpleCalculator
+  ```
 4. Projeyi Android Studio ile açın.
 5. Cihazınızı bağlayın veya emülatörü başlatın.
 6. Uygulamayı çalıştırın.
